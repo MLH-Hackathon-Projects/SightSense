@@ -1,0 +1,132 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lf" : {
+
+    },
+    "0.1" : {
+
+    },
+    "0.5" : {
+
+    },
+    "1" : {
+
+    },
+    "1.0" : {
+
+    },
+    "2.5" : {
+
+    },
+    "100" : {
+
+    },
+    "Delete Account" : {
+
+    },
+    "Email" : {
+
+    },
+    "Enable GamerMode" : {
+
+    },
+    "exit tutorial cuz" : {
+
+    },
+    "First Name" : {
+
+    },
+    "Haptic Speed Multiplier" : {
+
+    },
+    "Haptic Strength Multiplier" : {
+
+    },
+    "Here is a more detailed description..." : {
+
+    },
+    "Last Name" : {
+
+    },
+    "Message..." : {
+
+    },
+    "open" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开"
+          }
+        }
+      }
+    },
+    "Primary language" : {
+
+    },
+    "Select a voice" : {
+
+    },
+    "Send" : {
+
+    },
+    "Show Camera Preview" : {
+
+    },
+    "sightsense" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sightsense"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sightsense"
+          }
+        }
+      }
+    },
+    "Slider Label" : {
+
+    },
+    "Text Detection Mode" : {
+
+    },
+    "View Example" : {
+
+    },
+    "Voice Speed" : {
+
+    },
+    "Voice Volume" : {
+
+    },
+    "VOICE_TEXT_DETECTION_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ok, text detection enabled"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好，打开汉子检测"
+          }
+        }
+      }
+    },
+    "What is on the left by my feet?" : {
+
+    }
+  },
+  "version" : "1.0"
+}

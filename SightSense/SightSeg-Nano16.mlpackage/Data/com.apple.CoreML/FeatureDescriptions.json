@@ -1,0 +1,15 @@
+{
+  "Outputs" : {
+    "classLabels" : {
+      "MLFeatureShortDescription" : "Array of classification scores for each pixel"
+    }
+  },
+  "Inputs" : {
+    "image" : {
+      "MLFeatureShortDescription" : "Image to be processed"
+    }
+  },
+  "TrainingInputs" : {
+
+  }
+}

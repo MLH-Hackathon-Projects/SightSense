@@ -1,0 +1,12 @@
+//
+//  APIKeys.xcconfig
+//  SightSense
+//
+//  Created by Peter Zhao on 12/22/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+OPENAI_KEY = "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"
+
+

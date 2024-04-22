@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "1DA4D068-C14A-4570-87E9-8E9441A68DFF": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "ade20kSmallTopformer.mlmodel",
+            "path": "com.apple.CoreML/ade20kSmallTopformer.mlmodel"
+        },
+        "44ACD8D1-9A71-4951-A6FC-A42F1D65CB13": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "8DD784F0-9FAA-4594-BA14-498AD32B9DBE": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        }
+    },
+    "rootModelIdentifier": "1DA4D068-C14A-4570-87E9-8E9441A68DFF"
+}

@@ -1,0 +1,1117 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49C4E7586657E10CEAE7B54E /* Pods_SightSense_SightSenseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEAD4ABC4B715CC6CD87891 /* Pods_SightSense_SightSenseUITests.framework */; };
+		D008D8F72B4E389300230ADB /* SightSenseSpeakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008D8F62B4E389300230ADB /* SightSenseSpeakerView.swift */; };
+		D01104BE2AEDA2F500377FA0 /* WelcomeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01104BD2AEDA2F500377FA0 /* WelcomeManager.swift */; };
+		D0170F162AF07F9800537758 /* ButtonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0170F152AF07F9700537758 /* ButtonViews.swift */; };
+		D01AF66629E5B96B00476A4B /* SightSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AF66529E5B96B00476A4B /* SightSenseApp.swift */; };
+		D01AF66829E5B96B00476A4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AF66729E5B96B00476A4B /* ContentView.swift */; };
+		D01AF66A29E5B96E00476A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01AF66929E5B96E00476A4B /* Assets.xcassets */; };
+		D01AF66D29E5B96E00476A4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01AF66C29E5B96E00476A4B /* Preview Assets.xcassets */; };
+		D01AF69229E5BBC500476A4B /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AF69129E5BBC500476A4B /* TextRecognition.swift */; };
+		D01CEF532B3D47D50062A9D3 /* DataLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01CEF522B3D47D50062A9D3 /* DataLogger.swift */; };
+		D02DBD512B53915100D0B902 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02DBD502B53915100D0B902 /* LoadingView.swift */; };
+		D02DBD532B5392B800D0B902 /* TextPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02DBD522B5392B800D0B902 /* TextPreview.swift */; };
+		D03681692B131556008295CB /* InAPPLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03681682B131556008295CB /* InAPPLocationManager.swift */; };
+		D036816B2B14062E008295CB /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D036816A2B14062E008295CB /* OpenAI.swift */; };
+		D0388EB02A74C73C00743B78 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0388EAF2A74C73C00743B78 /* GoogLeNetPlaces.mlmodel */; };
+		D0457CDA2B327279005C195F /* IconViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0457CD92B327279005C195F /* IconViews.swift */; };
+		D0457CDC2B341936005C195F /* ScrollViewWithVerticalScrollDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0457CDB2B341936005C195F /* ScrollViewWithVerticalScrollDetection.swift */; };
+		D056195C2B10446B0057B71F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056195B2B10446B0057B71F /* HomeView.swift */; };
+		D05849732A7742930042A72E /* PolyKit in Frameworks */ = {isa = PBXBuildFile; productRef = D05849722A7742930042A72E /* PolyKit */; };
+		D069C4CE2B48DC0F000983B3 /* MainSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069C4CD2B48DC0F000983B3 /* MainSettingsView.swift */; };
+		D069C4D02B48DC9C000983B3 /* VoiceConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069C4CF2B48DC9C000983B3 /* VoiceConfigurationView.swift */; };
+		D069C4D22B48DDAA000983B3 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069C4D12B48DDAA000983B3 /* UserProfileView.swift */; };
+		D069C4D42B48DDD6000983B3 /* HapticConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069C4D32B48DDD6000983B3 /* HapticConfigurationView.swift */; };
+		D069C4D62B48DE50000983B3 /* LanguageConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069C4D52B48DE50000983B3 /* LanguageConfigurationView.swift */; };
+		D069C4D82B48DF97000983B3 /* NavigationConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069C4D72B48DF97000983B3 /* NavigationConfigurationView.swift */; };
+		D069C4DA2B48FFCA000983B3 /* GlobalDetectionConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069C4D92B48FFCA000983B3 /* GlobalDetectionConfigurationView.swift */; };
+		D069C4DD2B48FFFE000983B3 /* TextConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069C4DC2B48FFFE000983B3 /* TextConfigurationView.swift */; };
+		D069C4DF2B4900A4000983B3 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069C4DE2B4900A4000983B3 /* UserDefaultsManager.swift */; };
+		D069C4E12B49012E000983B3 /* DebouncerSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069C4E02B49012E000983B3 /* DebouncerSliderView.swift */; };
+		D0710F1F29E6132E0086D920 /* VoiceSynthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0710F1E29E6132D0086D920 /* VoiceSynthesis.swift */; };
+		D0710F2129EA07830086D920 /* Microphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0710F2029EA07830086D920 /* Microphone.swift */; };
+		D07397352B3772440063777F /* OnDeviceLLM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07397342B3772440063777F /* OnDeviceLLM.swift */; };
+		D073973B2B378A1A0063777F /* EditDefaultCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073973A2B378A1A0063777F /* EditDefaultCode.swift */; };
+		D07658792B3CC52D008B47BC /* TextDataInterpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07658782B3CC52D008B47BC /* TextDataInterpreter.swift */; };
+		D07F99F32B3A594800F12A55 /* app_done_loading.wav in Resources */ = {isa = PBXBuildFile; fileRef = D07F99DF2B3A594800F12A55 /* app_done_loading.wav */; };
+		D07F99F42B3A594800F12A55 /* view_content.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D07F99E02B3A594800F12A55 /* view_content.mp3 */; };
+		D07F99F52B3A594800F12A55 /* app_launch.wav in Resources */ = {isa = PBXBuildFile; fileRef = D07F99E12B3A594800F12A55 /* app_launch.wav */; };
+		D07F99F62B3A594800F12A55 /* activate_mode.wav in Resources */ = {isa = PBXBuildFile; fileRef = D07F99E22B3A594800F12A55 /* activate_mode.wav */; };
+		D07F99F72B3A594800F12A55 /* chime_1_c.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D07F99E32B3A594800F12A55 /* chime_1_c.mp3 */; };
+		D07F99F82B3A594800F12A55 /* chime_2_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D07F99E42B3A594800F12A55 /* chime_2_a.mp3 */; };
+		D07F99F92B3A594800F12A55 /* enter_screen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D07F99E52B3A594800F12A55 /* enter_screen.mp3 */; };
+		D07F99FA2B3A594800F12A55 /* chime_1_b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D07F99E62B3A594800F12A55 /* chime_1_b.mp3 */; };
+		D07F99FB2B3A594800F12A55 /* chime_1_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D07F99E72B3A594800F12A55 /* chime_1_a.mp3 */; };
+		D07F99FC2B3A594800F12A55 /* navigation.wav in Resources */ = {isa = PBXBuildFile; fileRef = D07F99E82B3A594800F12A55 /* navigation.wav */; };
+		D07F99FD2B3A594800F12A55 /* settings.wav in Resources */ = {isa = PBXBuildFile; fileRef = D07F99E92B3A594800F12A55 /* settings.wav */; };
+		D07F99FE2B3A594800F12A55 /* listening_end.wav in Resources */ = {isa = PBXBuildFile; fileRef = D07F99EA2B3A594800F12A55 /* listening_end.wav */; };
+		D07F99FF2B3A594800F12A55 /* home.wav in Resources */ = {isa = PBXBuildFile; fileRef = D07F99EB2B3A594800F12A55 /* home.wav */; };
+		D07F9A002B3A594800F12A55 /* general_click.wav in Resources */ = {isa = PBXBuildFile; fileRef = D07F99EC2B3A594800F12A55 /* general_click.wav */; };
+		D07F9A012B3A594800F12A55 /* disable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D07F99ED2B3A594800F12A55 /* disable.mp3 */; };
+		D07F9A022B3A594800F12A55 /* chime_2_b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D07F99EE2B3A594800F12A55 /* chime_2_b.mp3 */; };
+		D07F9A032B3A594800F12A55 /* app_loading_loop.wav in Resources */ = {isa = PBXBuildFile; fileRef = D07F99EF2B3A594800F12A55 /* app_loading_loop.wav */; };
+		D07F9A042B3A594800F12A55 /* action_failed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D07F99F02B3A594800F12A55 /* action_failed.mp3 */; };
+		D07F9A052B3A594800F12A55 /* view_data.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D07F99F12B3A594800F12A55 /* view_data.mp3 */; };
+		D07F9A062B3A594800F12A55 /* listening_start.wav in Resources */ = {isa = PBXBuildFile; fileRef = D07F99F22B3A594800F12A55 /* listening_start.wav */; };
+		D083161E2BB90B7700B77B1B /* yolov8x6-oiv7.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = D083161A2BB90B7600B77B1B /* yolov8x6-oiv7.mlpackage */; };
+		D083161F2BB90B7700B77B1B /* FastDepth.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D083161B2BB90B7600B77B1B /* FastDepth.mlmodel */; };
+		D08316202BB90B7700B77B1B /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D083161C2BB90B7600B77B1B /* GoogLeNetPlaces.mlmodel */; };
+		D08316212BB90B7700B77B1B /* SightSeg-Nano16.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = D083161D2BB90B7600B77B1B /* SightSeg-Nano16.mlpackage */; };
+		D083165A2BBA47EB00B77B1B /* DefaultCameraTabPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08316592BBA47EB00B77B1B /* DefaultCameraTabPage.swift */; };
+		D093B53B2B3FF8F2004D7B0B /* InternetDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D093B53A2B3FF8F2004D7B0B /* InternetDetector.swift */; };
+		D0950C502BC1F4DC00D79701 /* AskMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0950C4F2BC1F4DC00D79701 /* AskMoreView.swift */; };
+		D0A0B96A2ACBC27E0045AF1D /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D0A0B9692ACBC27E0045AF1D /* Localizable.xcstrings */; };
+		D0AB02C52AE8D77A002975E8 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AB02C42AE8D77A002975E8 /* WelcomeScreen.swift */; };
+		D0B685152ABE472A00F2960B /* VibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B685142ABE472A00F2960B /* VibrationManager.swift */; };
+		D0D6BE2F2A05805E0069D3C8 /* CameraBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6BE2E2A05805E0069D3C8 /* CameraBase.swift */; };
+		D0D924512B38ADB600BC54DC /* DistanceDataInterpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D924502B38ADB600BC54DC /* DistanceDataInterpreter.swift */; };
+		D0EE116929F377B30015A55E /* ReadTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE116829F377B30015A55E /* ReadTextView.swift */; };
+		D0EE116D29F378060015A55E /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE116C29F378060015A55E /* NavigationView.swift */; };
+		D0EE116F29F378350015A55E /* DistanceDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE116E29F378350015A55E /* DistanceDetection.swift */; };
+		D0EE117D29FC490B0015A55E /* InAppPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE117C29FC490B0015A55E /* InAppPaymentView.swift */; };
+		DBE2E3F83D49DB555E7742E1 /* Pods_SightSense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE28941B1FE55F535B9E1CF1 /* Pods_SightSense.framework */; };
+		EB4E566AB4B4EC9B8EBA7168 /* Pods_SightSenseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2266EA6B363614BDD665043A /* Pods_SightSenseTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D01AF67329E5B96E00476A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01AF65A29E5B96B00476A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01AF66129E5B96B00476A4B;
+			remoteInfo = SightSeer2;
+		};
+		D01AF67D29E5B96E00476A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01AF65A29E5B96B00476A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01AF66129E5B96B00476A4B;
+			remoteInfo = SightSeer2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C91C35141A6B5E42EB8842 /* Pods-SightSense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightSense.debug.xcconfig"; path = "Target Support Files/Pods-SightSense/Pods-SightSense.debug.xcconfig"; sourceTree = "<group>"; };
+		2266EA6B363614BDD665043A /* Pods_SightSenseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SightSenseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7099C2B2761FD93DF57EFF16 /* Pods-SightSenseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightSenseTests.debug.xcconfig"; path = "Target Support Files/Pods-SightSenseTests/Pods-SightSenseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AC4BD3DE98B0E57AD6D3F49 /* Pods-SightSenseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightSenseTests.release.xcconfig"; path = "Target Support Files/Pods-SightSenseTests/Pods-SightSenseTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADEAD4ABC4B715CC6CD87891 /* Pods_SightSense_SightSenseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SightSense_SightSenseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE28941B1FE55F535B9E1CF1 /* Pods_SightSense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SightSense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D008D8F62B4E389300230ADB /* SightSenseSpeakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightSenseSpeakerView.swift; sourceTree = "<group>"; };
+		D01104BD2AEDA2F500377FA0 /* WelcomeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeManager.swift; sourceTree = "<group>"; };
+		D0170F152AF07F9700537758 /* ButtonViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViews.swift; sourceTree = "<group>"; };
+		D01AF66229E5B96B00476A4B /* SightSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SightSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01AF66529E5B96B00476A4B /* SightSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightSenseApp.swift; sourceTree = "<group>"; };
+		D01AF66729E5B96B00476A4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		D01AF66929E5B96E00476A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D01AF66C29E5B96E00476A4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D01AF67229E5B96E00476A4B /* SightSenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SightSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01AF67C29E5B96E00476A4B /* SightSenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SightSenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01AF69129E5BBC500476A4B /* TextRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognition.swift; sourceTree = "<group>"; };
+		D01CEF522B3D47D50062A9D3 /* DataLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLogger.swift; sourceTree = "<group>"; };
+		D02DBD502B53915100D0B902 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		D02DBD522B5392B800D0B902 /* TextPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPreview.swift; sourceTree = "<group>"; };
+		D03681682B131556008295CB /* InAPPLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAPPLocationManager.swift; sourceTree = "<group>"; };
+		D036816A2B14062E008295CB /* OpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI.swift; sourceTree = "<group>"; };
+		D0388EAF2A74C73C00743B78 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		D0456C5E2B3D20A600B48615 /* Verdana.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Verdana.ttf; path = ../../../../Verdana.ttf; sourceTree = "<group>"; };
+		D0456C5F2B3D21BD00B48615 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Regular.ttf"; path = "../../../../../Desktop/NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		D0457CD92B327279005C195F /* IconViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconViews.swift; sourceTree = "<group>"; };
+		D0457CDB2B341936005C195F /* ScrollViewWithVerticalScrollDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScrollViewWithVerticalScrollDetection.swift; path = "../New Group/ScrollViewWithVerticalScrollDetection.swift"; sourceTree = "<group>"; };
+		D056195B2B10446B0057B71F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D058496F2A7740920042A72E /* PolyKit-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "PolyKit-main"; path = "../../PolyKit-main"; sourceTree = "<group>"; };
+		D069C4CD2B48DC0F000983B3 /* MainSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSettingsView.swift; sourceTree = "<group>"; };
+		D069C4CF2B48DC9C000983B3 /* VoiceConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceConfigurationView.swift; sourceTree = "<group>"; };
+		D069C4D12B48DDAA000983B3 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		D069C4D32B48DDD6000983B3 /* HapticConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticConfigurationView.swift; sourceTree = "<group>"; };
+		D069C4D52B48DE50000983B3 /* LanguageConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageConfigurationView.swift; sourceTree = "<group>"; };
+		D069C4D72B48DF97000983B3 /* NavigationConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConfigurationView.swift; sourceTree = "<group>"; };
+		D069C4D92B48FFCA000983B3 /* GlobalDetectionConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDetectionConfigurationView.swift; sourceTree = "<group>"; };
+		D069C4DC2B48FFFE000983B3 /* TextConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextConfigurationView.swift; sourceTree = "<group>"; };
+		D069C4DE2B4900A4000983B3 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		D069C4E02B49012E000983B3 /* DebouncerSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebouncerSliderView.swift; sourceTree = "<group>"; };
+		D0710F1B29E5EB500086D920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D0710F1E29E6132D0086D920 /* VoiceSynthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceSynthesis.swift; sourceTree = "<group>"; };
+		D0710F2029EA07830086D920 /* Microphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Microphone.swift; sourceTree = "<group>"; };
+		D07397332B36C1DE0063777F /* APIKeys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = APIKeys.xcconfig; sourceTree = "<group>"; };
+		D07397342B3772440063777F /* OnDeviceLLM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDeviceLLM.swift; sourceTree = "<group>"; };
+		D073973A2B378A1A0063777F /* EditDefaultCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDefaultCode.swift; sourceTree = "<group>"; };
+		D07658782B3CC52D008B47BC /* TextDataInterpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDataInterpreter.swift; sourceTree = "<group>"; };
+		D07F99DF2B3A594800F12A55 /* app_done_loading.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = app_done_loading.wav; path = "../../../../SightSense_Sounds/App Loading/app_done_loading.wav"; sourceTree = "<group>"; };
+		D07F99E02B3A594800F12A55 /* view_content.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = view_content.mp3; path = "../../../../SightSense_Sounds/Miscellaneous (dont use yet)/view_content.mp3"; sourceTree = "<group>"; };
+		D07F99E12B3A594800F12A55 /* app_launch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = app_launch.wav; path = "../../../../SightSense_Sounds/App Loading/app_launch.wav"; sourceTree = "<group>"; };
+		D07F99E22B3A594800F12A55 /* activate_mode.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = activate_mode.wav; path = "../../../../SightSense_Sounds/Click Sounds/activate_mode.wav"; sourceTree = "<group>"; };
+		D07F99E32B3A594800F12A55 /* chime_1_c.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chime_1_c.mp3; path = "../../../../SightSense_Sounds/Miscellaneous (dont use yet)/chime_1_c.mp3"; sourceTree = "<group>"; };
+		D07F99E42B3A594800F12A55 /* chime_2_a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chime_2_a.mp3; path = "../../../../SightSense_Sounds/Miscellaneous (dont use yet)/chime_2_a.mp3"; sourceTree = "<group>"; };
+		D07F99E52B3A594800F12A55 /* enter_screen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = enter_screen.mp3; path = "../../../../SightSense_Sounds/Miscellaneous (dont use yet)/enter_screen.mp3"; sourceTree = "<group>"; };
+		D07F99E62B3A594800F12A55 /* chime_1_b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chime_1_b.mp3; path = "../../../../SightSense_Sounds/Miscellaneous (dont use yet)/chime_1_b.mp3"; sourceTree = "<group>"; };
+		D07F99E72B3A594800F12A55 /* chime_1_a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chime_1_a.mp3; path = "../../../../SightSense_Sounds/Miscellaneous (dont use yet)/chime_1_a.mp3"; sourceTree = "<group>"; };
+		D07F99E82B3A594800F12A55 /* navigation.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = navigation.wav; path = "../../../../SightSense_Sounds/Mode Changes/navigation.wav"; sourceTree = "<group>"; };
+		D07F99E92B3A594800F12A55 /* settings.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = settings.wav; path = "../../../../SightSense_Sounds/Click Sounds/settings.wav"; sourceTree = "<group>"; };
+		D07F99EA2B3A594800F12A55 /* listening_end.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = listening_end.wav; path = "../../../../SightSense_Sounds/Voice Assistant/listening_end.wav"; sourceTree = "<group>"; };
+		D07F99EB2B3A594800F12A55 /* home.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = home.wav; path = "../../../../SightSense_Sounds/Mode Changes/home.wav"; sourceTree = "<group>"; };
+		D07F99EC2B3A594800F12A55 /* general_click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = general_click.wav; path = "../../../../SightSense_Sounds/Click Sounds/general_click.wav"; sourceTree = "<group>"; };
+		D07F99ED2B3A594800F12A55 /* disable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = disable.mp3; path = "../../../../SightSense_Sounds/Miscellaneous (dont use yet)/disable.mp3"; sourceTree = "<group>"; };
+		D07F99EE2B3A594800F12A55 /* chime_2_b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chime_2_b.mp3; path = "../../../../SightSense_Sounds/Miscellaneous (dont use yet)/chime_2_b.mp3"; sourceTree = "<group>"; };
+		D07F99EF2B3A594800F12A55 /* app_loading_loop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = app_loading_loop.wav; path = "../../../../SightSense_Sounds/App Loading/app_loading_loop.wav"; sourceTree = "<group>"; };
+		D07F99F02B3A594800F12A55 /* action_failed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = action_failed.mp3; path = "../../../../SightSense_Sounds/Miscellaneous (dont use yet)/action_failed.mp3"; sourceTree = "<group>"; };
+		D07F99F12B3A594800F12A55 /* view_data.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = view_data.mp3; path = "../../../../SightSense_Sounds/Miscellaneous (dont use yet)/view_data.mp3"; sourceTree = "<group>"; };
+		D07F99F22B3A594800F12A55 /* listening_start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = listening_start.wav; path = "../../../../SightSense_Sounds/Voice Assistant/listening_start.wav"; sourceTree = "<group>"; };
+		D083161A2BB90B7600B77B1B /* yolov8x6-oiv7.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = "yolov8x6-oiv7.mlpackage"; sourceTree = "<group>"; };
+		D083161B2BB90B7600B77B1B /* FastDepth.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FastDepth.mlmodel; sourceTree = "<group>"; };
+		D083161C2BB90B7600B77B1B /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		D083161D2BB90B7600B77B1B /* SightSeg-Nano16.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = "SightSeg-Nano16.mlpackage"; sourceTree = "<group>"; };
+		D08316592BBA47EB00B77B1B /* DefaultCameraTabPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCameraTabPage.swift; sourceTree = "<group>"; };
+		D093B53A2B3FF8F2004D7B0B /* InternetDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetector.swift; sourceTree = "<group>"; };
+		D0950C4F2BC1F4DC00D79701 /* AskMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskMoreView.swift; sourceTree = "<group>"; };
+		D0A0B9692ACBC27E0045AF1D /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		D0AB02C42AE8D77A002975E8 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		D0B685142ABE472A00F2960B /* VibrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationManager.swift; sourceTree = "<group>"; };
+		D0D6BE2E2A05805E0069D3C8 /* CameraBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraBase.swift; sourceTree = "<group>"; };
+		D0D924502B38ADB600BC54DC /* DistanceDataInterpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceDataInterpreter.swift; sourceTree = "<group>"; };
+		D0EE116829F377B30015A55E /* ReadTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTextView.swift; sourceTree = "<group>"; };
+		D0EE116C29F378060015A55E /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		D0EE116E29F378350015A55E /* DistanceDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceDetection.swift; sourceTree = "<group>"; };
+		D0EE117C29FC490B0015A55E /* InAppPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPaymentView.swift; sourceTree = "<group>"; };
+		E257212A47E94DD56D8EAFB6 /* Pods-SightSense-SightSenseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightSense-SightSenseUITests.release.xcconfig"; path = "Target Support Files/Pods-SightSense-SightSenseUITests/Pods-SightSense-SightSenseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E48168D38BC7217C1DF36E42 /* Pods-SightSense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightSense.release.xcconfig"; path = "Target Support Files/Pods-SightSense/Pods-SightSense.release.xcconfig"; sourceTree = "<group>"; };
+		F66B8F7002B01614C0E26A8B /* Pods-SightSense-SightSenseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightSense-SightSenseUITests.debug.xcconfig"; path = "Target Support Files/Pods-SightSense-SightSenseUITests/Pods-SightSense-SightSenseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D01AF65F29E5B96B00476A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE2E3F83D49DB555E7742E1 /* Pods_SightSense.framework in Frameworks */,
+				D05849732A7742930042A72E /* PolyKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AF66F29E5B96E00476A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4E566AB4B4EC9B8EBA7168 /* Pods_SightSenseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AF67929E5B96E00476A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C4E7586657E10CEAE7B54E /* Pods_SightSense_SightSenseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5768A722FF9520A57D9BB8C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE28941B1FE55F535B9E1CF1 /* Pods_SightSense.framework */,
+				ADEAD4ABC4B715CC6CD87891 /* Pods_SightSense_SightSenseUITests.framework */,
+				2266EA6B363614BDD665043A /* Pods_SightSenseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82E360149FF467F6D2292269 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03C91C35141A6B5E42EB8842 /* Pods-SightSense.debug.xcconfig */,
+				E48168D38BC7217C1DF36E42 /* Pods-SightSense.release.xcconfig */,
+				F66B8F7002B01614C0E26A8B /* Pods-SightSense-SightSenseUITests.debug.xcconfig */,
+				E257212A47E94DD56D8EAFB6 /* Pods-SightSense-SightSenseUITests.release.xcconfig */,
+				7099C2B2761FD93DF57EFF16 /* Pods-SightSenseTests.debug.xcconfig */,
+				8AC4BD3DE98B0E57AD6D3F49 /* Pods-SightSenseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D01AF65929E5B96B00476A4B = {
+			isa = PBXGroup;
+			children = (
+				D058496E2A7740920042A72E /* Packages */,
+				D01AF66429E5B96B00476A4B /* SightSense */,
+				D01AF66329E5B96B00476A4B /* Products */,
+				82E360149FF467F6D2292269 /* Pods */,
+				5768A722FF9520A57D9BB8C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D01AF66329E5B96B00476A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D01AF66229E5B96B00476A4B /* SightSense.app */,
+				D01AF67229E5B96E00476A4B /* SightSenseTests.xctest */,
+				D01AF67C29E5B96E00476A4B /* SightSenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D01AF66429E5B96B00476A4B /* SightSense */ = {
+			isa = PBXGroup;
+			children = (
+				D0710F1B29E5EB500086D920 /* Info.plist */,
+				D01AF66529E5B96B00476A4B /* SightSenseApp.swift */,
+				D0D6BE302A059FBB0069D3C8 /* Views */,
+				D036816A2B14062E008295CB /* OpenAI.swift */,
+				D07397342B3772440063777F /* OnDeviceLLM.swift */,
+				D0D6BE2E2A05805E0069D3C8 /* CameraBase.swift */,
+				D01AF69129E5BBC500476A4B /* TextRecognition.swift */,
+				D07658782B3CC52D008B47BC /* TextDataInterpreter.swift */,
+				D0EE116E29F378350015A55E /* DistanceDetection.swift */,
+				D0D924502B38ADB600BC54DC /* DistanceDataInterpreter.swift */,
+				D0B685142ABE472A00F2960B /* VibrationManager.swift */,
+				D0710F2029EA07830086D920 /* Microphone.swift */,
+				D03681682B131556008295CB /* InAPPLocationManager.swift */,
+				D0710F1E29E6132D0086D920 /* VoiceSynthesis.swift */,
+				D01104BD2AEDA2F500377FA0 /* WelcomeManager.swift */,
+				D073973A2B378A1A0063777F /* EditDefaultCode.swift */,
+				D01CEF522B3D47D50062A9D3 /* DataLogger.swift */,
+				D093B53A2B3FF8F2004D7B0B /* InternetDetector.swift */,
+				D069C4DE2B4900A4000983B3 /* UserDefaultsManager.swift */,
+				D083161B2BB90B7600B77B1B /* FastDepth.mlmodel */,
+				D083161C2BB90B7600B77B1B /* GoogLeNetPlaces.mlmodel */,
+				D083161D2BB90B7600B77B1B /* SightSeg-Nano16.mlpackage */,
+				D083161A2BB90B7600B77B1B /* yolov8x6-oiv7.mlpackage */,
+				D07397332B36C1DE0063777F /* APIKeys.xcconfig */,
+				D0A0B9692ACBC27E0045AF1D /* Localizable.xcstrings */,
+				D0388EAF2A74C73C00743B78 /* GoogLeNetPlaces.mlmodel */,
+				D07F99DE2B3A591600F12A55 /* Sounds */,
+				D01AF66929E5B96E00476A4B /* Assets.xcassets */,
+				D0456C5D2B3D208D00B48615 /* Styles */,
+				D01AF66B29E5B96E00476A4B /* Preview Content */,
+			);
+			path = SightSense;
+			sourceTree = "<group>";
+		};
+		D01AF66B29E5B96E00476A4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D01AF66C29E5B96E00476A4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0456C5D2B3D208D00B48615 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				D0456C5F2B3D21BD00B48615 /* NotoSans-Regular.ttf */,
+				D0456C5E2B3D20A600B48615 /* Verdana.ttf */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		D058496E2A7740920042A72E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D058496F2A7740920042A72E /* PolyKit-main */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		D069C4CC2B48DB18000983B3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D069C4CD2B48DC0F000983B3 /* MainSettingsView.swift */,
+				D069C4CF2B48DC9C000983B3 /* VoiceConfigurationView.swift */,
+				D069C4D12B48DDAA000983B3 /* UserProfileView.swift */,
+				D069C4D32B48DDD6000983B3 /* HapticConfigurationView.swift */,
+				D069C4D52B48DE50000983B3 /* LanguageConfigurationView.swift */,
+				D069C4D72B48DF97000983B3 /* NavigationConfigurationView.swift */,
+				D069C4D92B48FFCA000983B3 /* GlobalDetectionConfigurationView.swift */,
+				D069C4DC2B48FFFE000983B3 /* TextConfigurationView.swift */,
+				D0EE117C29FC490B0015A55E /* InAppPaymentView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D069C4E22B490142000983B3 /* SubordinateViews */ = {
+			isa = PBXGroup;
+			children = (
+				D0950C4F2BC1F4DC00D79701 /* AskMoreView.swift */,
+				D008D8F62B4E389300230ADB /* SightSenseSpeakerView.swift */,
+				D0170F152AF07F9700537758 /* ButtonViews.swift */,
+				D069C4E02B49012E000983B3 /* DebouncerSliderView.swift */,
+				D0457CDB2B341936005C195F /* ScrollViewWithVerticalScrollDetection.swift */,
+				D02DBD502B53915100D0B902 /* LoadingView.swift */,
+				D02DBD522B5392B800D0B902 /* TextPreview.swift */,
+				D08316592BBA47EB00B77B1B /* DefaultCameraTabPage.swift */,
+			);
+			path = SubordinateViews;
+			sourceTree = "<group>";
+		};
+		D07F99DE2B3A591600F12A55 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D07F99DF2B3A594800F12A55 /* app_done_loading.wav */,
+				D07F99E12B3A594800F12A55 /* app_launch.wav */,
+				D07F99EF2B3A594800F12A55 /* app_loading_loop.wav */,
+				D07F99E22B3A594800F12A55 /* activate_mode.wav */,
+				D07F99EC2B3A594800F12A55 /* general_click.wav */,
+				D07F99E92B3A594800F12A55 /* settings.wav */,
+				D07F99F02B3A594800F12A55 /* action_failed.mp3 */,
+				D07F99E72B3A594800F12A55 /* chime_1_a.mp3 */,
+				D07F99E62B3A594800F12A55 /* chime_1_b.mp3 */,
+				D07F99E32B3A594800F12A55 /* chime_1_c.mp3 */,
+				D07F99E42B3A594800F12A55 /* chime_2_a.mp3 */,
+				D07F99EE2B3A594800F12A55 /* chime_2_b.mp3 */,
+				D07F99ED2B3A594800F12A55 /* disable.mp3 */,
+				D07F99E52B3A594800F12A55 /* enter_screen.mp3 */,
+				D07F99E02B3A594800F12A55 /* view_content.mp3 */,
+				D07F99F12B3A594800F12A55 /* view_data.mp3 */,
+				D07F99EB2B3A594800F12A55 /* home.wav */,
+				D07F99E82B3A594800F12A55 /* navigation.wav */,
+				D07F99EA2B3A594800F12A55 /* listening_end.wav */,
+				D07F99F22B3A594800F12A55 /* listening_start.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		D0D6BE302A059FBB0069D3C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D01AF66729E5B96B00476A4B /* ContentView.swift */,
+				D056195B2B10446B0057B71F /* HomeView.swift */,
+				D0457CD92B327279005C195F /* IconViews.swift */,
+				D0AB02C42AE8D77A002975E8 /* WelcomeScreen.swift */,
+				D0EE116829F377B30015A55E /* ReadTextView.swift */,
+				D0EE116C29F378060015A55E /* NavigationView.swift */,
+				D069C4CC2B48DB18000983B3 /* Settings */,
+				D069C4E22B490142000983B3 /* SubordinateViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D01AF66129E5B96B00476A4B /* SightSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01AF68629E5B96F00476A4B /* Build configuration list for PBXNativeTarget "SightSense" */;
+			buildPhases = (
+				774376CD63AA3077C62C84D2 /* [CP] Check Pods Manifest.lock */,
+				D01AF65E29E5B96B00476A4B /* Sources */,
+				D01AF65F29E5B96B00476A4B /* Frameworks */,
+				D01AF66029E5B96B00476A4B /* Resources */,
+				2D4A0F04B5CFC0242CBB02FF /* [CP] Copy Pods Resources */,
+				BCBADF77378914231482646F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SightSense;
+			packageProductDependencies = (
+				D05849722A7742930042A72E /* PolyKit */,
+			);
+			productName = SightSeer2;
+			productReference = D01AF66229E5B96B00476A4B /* SightSense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D01AF67129E5B96E00476A4B /* SightSenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01AF68929E5B96F00476A4B /* Build configuration list for PBXNativeTarget "SightSenseTests" */;
+			buildPhases = (
+				CA3463E0DA1D6B3F52144305 /* [CP] Check Pods Manifest.lock */,
+				D01AF66E29E5B96E00476A4B /* Sources */,
+				D01AF66F29E5B96E00476A4B /* Frameworks */,
+				D01AF67029E5B96E00476A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01AF67429E5B96E00476A4B /* PBXTargetDependency */,
+			);
+			name = SightSenseTests;
+			productName = SightSeer2Tests;
+			productReference = D01AF67229E5B96E00476A4B /* SightSenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D01AF67B29E5B96E00476A4B /* SightSenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01AF68C29E5B96F00476A4B /* Build configuration list for PBXNativeTarget "SightSenseUITests" */;
+			buildPhases = (
+				A93BE5E0750F04A78F311016 /* [CP] Check Pods Manifest.lock */,
+				D01AF67829E5B96E00476A4B /* Sources */,
+				D01AF67929E5B96E00476A4B /* Frameworks */,
+				D01AF67A29E5B96E00476A4B /* Resources */,
+				95515196A705D315404CE797 /* [CP] Copy Pods Resources */,
+				5D214F5AB1FDAE6A0A35781A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01AF67E29E5B96E00476A4B /* PBXTargetDependency */,
+			);
+			name = SightSenseUITests;
+			productName = SightSeer2UITests;
+			productReference = D01AF67C29E5B96E00476A4B /* SightSenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D01AF65A29E5B96B00476A4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D01AF66129E5B96B00476A4B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D01AF67129E5B96E00476A4B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D01AF66129E5B96B00476A4B;
+					};
+					D01AF67B29E5B96E00476A4B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D01AF66129E5B96B00476A4B;
+					};
+				};
+			};
+			buildConfigurationList = D01AF65D29E5B96B00476A4B /* Build configuration list for PBXProject "SightSense" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				de,
+				hi,
+				fr,
+				ja,
+				ko,
+				ru,
+				es,
+			);
+			mainGroup = D01AF65929E5B96B00476A4B;
+			packageReferences = (
+				D05849712A7742930042A72E /* XCRemoteSwiftPackageReference "PolyKit" */,
+			);
+			productRefGroup = D01AF66329E5B96B00476A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D01AF66129E5B96B00476A4B /* SightSense */,
+				D01AF67129E5B96E00476A4B /* SightSenseTests */,
+				D01AF67B29E5B96E00476A4B /* SightSenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D01AF66029E5B96B00476A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07F99FE2B3A594800F12A55 /* listening_end.wav in Resources */,
+				D07F9A062B3A594800F12A55 /* listening_start.wav in Resources */,
+				D01AF66D29E5B96E00476A4B /* Preview Assets.xcassets in Resources */,
+				D07F99F62B3A594800F12A55 /* activate_mode.wav in Resources */,
+				D07F9A012B3A594800F12A55 /* disable.mp3 in Resources */,
+				D07F9A042B3A594800F12A55 /* action_failed.mp3 in Resources */,
+				D07F9A002B3A594800F12A55 /* general_click.wav in Resources */,
+				D07F99F52B3A594800F12A55 /* app_launch.wav in Resources */,
+				D07F9A032B3A594800F12A55 /* app_loading_loop.wav in Resources */,
+				D07F99FC2B3A594800F12A55 /* navigation.wav in Resources */,
+				D07F99FF2B3A594800F12A55 /* home.wav in Resources */,
+				D01AF66A29E5B96E00476A4B /* Assets.xcassets in Resources */,
+				D07F99F92B3A594800F12A55 /* enter_screen.mp3 in Resources */,
+				D07F9A022B3A594800F12A55 /* chime_2_b.mp3 in Resources */,
+				D07F9A052B3A594800F12A55 /* view_data.mp3 in Resources */,
+				D07F99FA2B3A594800F12A55 /* chime_1_b.mp3 in Resources */,
+				D0A0B96A2ACBC27E0045AF1D /* Localizable.xcstrings in Resources */,
+				D07F99F72B3A594800F12A55 /* chime_1_c.mp3 in Resources */,
+				D07F99FD2B3A594800F12A55 /* settings.wav in Resources */,
+				D07F99FB2B3A594800F12A55 /* chime_1_a.mp3 in Resources */,
+				D07F99F32B3A594800F12A55 /* app_done_loading.wav in Resources */,
+				D07F99F82B3A594800F12A55 /* chime_2_a.mp3 in Resources */,
+				D07F99F42B3A594800F12A55 /* view_content.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AF67029E5B96E00476A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AF67A29E5B96E00476A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D4A0F04B5CFC0242CBB02FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SightSense/Pods-SightSense-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SightSense/Pods-SightSense-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SightSense/Pods-SightSense-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D214F5AB1FDAE6A0A35781A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SightSense-SightSenseUITests/Pods-SightSense-SightSenseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SightSense-SightSenseUITests/Pods-SightSense-SightSenseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SightSense-SightSenseUITests/Pods-SightSense-SightSenseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		774376CD63AA3077C62C84D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SightSense-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95515196A705D315404CE797 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SightSense-SightSenseUITests/Pods-SightSense-SightSenseUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SightSense-SightSenseUITests/Pods-SightSense-SightSenseUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SightSense-SightSenseUITests/Pods-SightSense-SightSenseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A93BE5E0750F04A78F311016 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SightSense-SightSenseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCBADF77378914231482646F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SightSense/Pods-SightSense-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SightSense/Pods-SightSense-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SightSense/Pods-SightSense-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA3463E0DA1D6B3F52144305 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SightSenseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D01AF65E29E5B96B00476A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01AF69229E5BBC500476A4B /* TextRecognition.swift in Sources */,
+				D0AB02C52AE8D77A002975E8 /* WelcomeScreen.swift in Sources */,
+				D08316212BB90B7700B77B1B /* SightSeg-Nano16.mlpackage in Sources */,
+				D0457CDA2B327279005C195F /* IconViews.swift in Sources */,
+				D069C4D42B48DDD6000983B3 /* HapticConfigurationView.swift in Sources */,
+				D07397352B3772440063777F /* OnDeviceLLM.swift in Sources */,
+				D0D924512B38ADB600BC54DC /* DistanceDataInterpreter.swift in Sources */,
+				D01104BE2AEDA2F500377FA0 /* WelcomeManager.swift in Sources */,
+				D069C4D22B48DDAA000983B3 /* UserProfileView.swift in Sources */,
+				D0EE116929F377B30015A55E /* ReadTextView.swift in Sources */,
+				D0EE117D29FC490B0015A55E /* InAppPaymentView.swift in Sources */,
+				D01CEF532B3D47D50062A9D3 /* DataLogger.swift in Sources */,
+				D069C4D62B48DE50000983B3 /* LanguageConfigurationView.swift in Sources */,
+				D0457CDC2B341936005C195F /* ScrollViewWithVerticalScrollDetection.swift in Sources */,
+				D0950C502BC1F4DC00D79701 /* AskMoreView.swift in Sources */,
+				D069C4E12B49012E000983B3 /* DebouncerSliderView.swift in Sources */,
+				D069C4DA2B48FFCA000983B3 /* GlobalDetectionConfigurationView.swift in Sources */,
+				D01AF66829E5B96B00476A4B /* ContentView.swift in Sources */,
+				D03681692B131556008295CB /* InAPPLocationManager.swift in Sources */,
+				D0EE116D29F378060015A55E /* NavigationView.swift in Sources */,
+				D02DBD532B5392B800D0B902 /* TextPreview.swift in Sources */,
+				D0170F162AF07F9800537758 /* ButtonViews.swift in Sources */,
+				D0710F1F29E6132E0086D920 /* VoiceSynthesis.swift in Sources */,
+				D0B685152ABE472A00F2960B /* VibrationManager.swift in Sources */,
+				D069C4D02B48DC9C000983B3 /* VoiceConfigurationView.swift in Sources */,
+				D0EE116F29F378350015A55E /* DistanceDetection.swift in Sources */,
+				D069C4CE2B48DC0F000983B3 /* MainSettingsView.swift in Sources */,
+				D02DBD512B53915100D0B902 /* LoadingView.swift in Sources */,
+				D083165A2BBA47EB00B77B1B /* DefaultCameraTabPage.swift in Sources */,
+				D069C4D82B48DF97000983B3 /* NavigationConfigurationView.swift in Sources */,
+				D083161E2BB90B7700B77B1B /* yolov8x6-oiv7.mlpackage in Sources */,
+				D036816B2B14062E008295CB /* OpenAI.swift in Sources */,
+				D0710F2129EA07830086D920 /* Microphone.swift in Sources */,
+				D069C4DF2B4900A4000983B3 /* UserDefaultsManager.swift in Sources */,
+				D093B53B2B3FF8F2004D7B0B /* InternetDetector.swift in Sources */,
+				D01AF66629E5B96B00476A4B /* SightSenseApp.swift in Sources */,
+				D083161F2BB90B7700B77B1B /* FastDepth.mlmodel in Sources */,
+				D008D8F72B4E389300230ADB /* SightSenseSpeakerView.swift in Sources */,
+				D07658792B3CC52D008B47BC /* TextDataInterpreter.swift in Sources */,
+				D0D6BE2F2A05805E0069D3C8 /* CameraBase.swift in Sources */,
+				D0388EB02A74C73C00743B78 /* GoogLeNetPlaces.mlmodel in Sources */,
+				D073973B2B378A1A0063777F /* EditDefaultCode.swift in Sources */,
+				D069C4DD2B48FFFE000983B3 /* TextConfigurationView.swift in Sources */,
+				D056195C2B10446B0057B71F /* HomeView.swift in Sources */,
+				D08316202BB90B7700B77B1B /* GoogLeNetPlaces.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AF66E29E5B96E00476A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AF67829E5B96E00476A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D01AF67429E5B96E00476A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01AF66129E5B96B00476A4B /* SightSense */;
+			targetProxy = D01AF67329E5B96E00476A4B /* PBXContainerItemProxy */;
+		};
+		D01AF67E29E5B96E00476A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01AF66129E5B96B00476A4B /* SightSense */;
+			targetProxy = D01AF67D29E5B96E00476A4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D01AF68429E5B96E00476A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07397332B36C1DE0063777F /* APIKeys.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D01AF68529E5B96E00476A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07397332B36C1DE0063777F /* APIKeys.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D01AF68729E5B96F00476A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C91C35141A6B5E42EB8842 /* Pods-SightSense.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SightSense/Preview Content\"";
+				DEVELOPMENT_TEAM = QW64TZKUAF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SightSense/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SightSense;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SightSense.SightSensev0.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D01AF68829E5B96F00476A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E48168D38BC7217C1DF36E42 /* Pods-SightSense.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SightSense/Preview Content\"";
+				DEVELOPMENT_TEAM = QW64TZKUAF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SightSense/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SightSense;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SightSense.SightSensev0.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D01AF68A29E5B96F00476A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7099C2B2761FD93DF57EFF16 /* Pods-SightSenseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QW64TZKUAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VisionaryTech.SightSeer2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SightSense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SightSense";
+			};
+			name = Debug;
+		};
+		D01AF68B29E5B96F00476A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC4BD3DE98B0E57AD6D3F49 /* Pods-SightSenseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QW64TZKUAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VisionaryTech.SightSeer2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SightSense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SightSense";
+			};
+			name = Release;
+		};
+		D01AF68D29E5B96F00476A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66B8F7002B01614C0E26A8B /* Pods-SightSense-SightSenseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QW64TZKUAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VisionaryTech.SightSeer2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SightSeer2;
+			};
+			name = Debug;
+		};
+		D01AF68E29E5B96F00476A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E257212A47E94DD56D8EAFB6 /* Pods-SightSense-SightSenseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QW64TZKUAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VisionaryTech.SightSeer2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SightSeer2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D01AF65D29E5B96B00476A4B /* Build configuration list for PBXProject "SightSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01AF68429E5B96E00476A4B /* Debug */,
+				D01AF68529E5B96E00476A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01AF68629E5B96F00476A4B /* Build configuration list for PBXNativeTarget "SightSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01AF68729E5B96F00476A4B /* Debug */,
+				D01AF68829E5B96F00476A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01AF68929E5B96F00476A4B /* Build configuration list for PBXNativeTarget "SightSenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01AF68A29E5B96F00476A4B /* Debug */,
+				D01AF68B29E5B96F00476A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01AF68C29E5B96F00476A4B /* Build configuration list for PBXNativeTarget "SightSenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01AF68D29E5B96F00476A4B /* Debug */,
+				D01AF68E29E5B96F00476A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D05849712A7742930042A72E /* XCRemoteSwiftPackageReference "PolyKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/heestand-xyz/PolyKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D05849722A7742930042A72E /* PolyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D05849712A7742930042A72E /* XCRemoteSwiftPackageReference "PolyKit" */;
+			productName = PolyKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D01AF65A29E5B96B00476A4B /* Project object */;
+}
